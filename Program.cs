@@ -112,9 +112,49 @@
 //Домашнее задание
 //Задача 41: Пользователь вводит с клавиатуры M чисел. 
 //Посчитайте, сколько чисел больше 0 ввёл пользователь
-    {
-        Console.WriteLine("Введите числа через запятую:");
-        int count = Array.FindAll(Console.ReadLine().Split(','), s => int.Parse(s) > 0).Length;
-        Console.WriteLine($"Количество чисел больше 0: {count}");
-    }
+    // {
+    //     Console.WriteLine("Введите числа через запятую:");
+    //     int count = Array.FindAll(Console.ReadLine().Split(','), s => int.Parse(s) > 0).Length;
+    //     Console.WriteLine($"Количество чисел больше 0: {count}");
+    // }
+
+
+// Задача 43. Напишите программу, которая найдёт точку 
+// пересечения двух прямых, заданных уравнениями y = k1 * x + 
+// b1, y = k2 * x + b2; значения b1, k1, b2 и k2 задаются 
+// пользователем
+
+    // {
+    //     Console.WriteLine("Введите значения k1, b1, k2, b2 через запятую:");
+
+    //     string[] input = Console.ReadLine().Split(',');
+
+    //     if (input.Length != 4)
+    //     {
+    //         Console.WriteLine("Некорректный ввод. Введите четыре значения.");
+    //         return;
+    //     }
+
+    //     if (double.TryParse(input[0], out double k1) &&
+    //         double.TryParse(input[1], out double b1) &&
+    //         double.TryParse(input[2], out double k2) &&
+    //         double.TryParse(input[3], out double b2))
+    //     {
+    //         if (k1 == k2)
+    //         {
+    //             Console.WriteLine("Прямые параллельны, нет точки пересечения.");
+    //         }
+    //         else
+    //         {
+    //             double x = (b2 - b1) / (k1 - k2);
+    //             double y = k1 * x + b1;
+    //             Console.WriteLine($"Точка пересечения: ({x}, {y})");
+    //         }
+    //     }
+    //     else
+    //     {
+    //         Console.WriteLine("Некорректный ввод. Введите числовые значения.");
+    //     }
+    // }
+
 
